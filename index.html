@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="stylesheet.css">
+</head>
+<body class="bg-gray-900 text-gray-200">
+    <header class="bg-gray-800 p-6">
+        <div class="container mx-auto flex justify-between items-center">
+            <h1 class="text-2xl font-bold text-white">sxttxch (@SxtTxch)</h1>
+            <nav>
+                <ul class="flex space-x-6">
+                    <li>
+                        <a href="#about" class="text-gray-300 hover:text-blue-400 transition-colors duration-300">About</a>
+                    </li>
+                    <li>
+                        <a href="#projects" class="text-gray-300 hover:text-blue-400 transition-colors duration-300">Projects</a>
+                    </li>
+                    <li>
+                        <a href="#certificates" class="bg-blue-600 text-white px-4 py-2 rounded-lg hover:bg-blue-700 transition-colors duration-300">Certificates</a>
+                    </li>
+                    <li>
+                        <a href="#achievements" class="text-gray-300 hover:text-blue-400 transition-colors duration-300">Achievements</a>
+                    </li>
+                    <li>
+                        <a href="#contact" class="border-solid border-2 border-gray-600 text-white px-4 py-2 rounded-lg transition-colors duration-300">Contact</a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    
+
+    <section id="threejs-section" class="relative h-screen">
+        <div id="threejs-container" class="absolute inset-0"></div>
+    </section>
+
+    <section id="about" class="py-20 bg-gray-800">
+        <div class="container mx-auto text-center">
+            <h2 class="text-3xl font-semibold mb-6">About Me</h2>
+            <p class="max-w-2xl mx-auto">
+                I'm a <b>17-year-old</b> aspiring <b>software developer</b> 💻, <b>cybersecurity enthusiast</b> 🔒, and <b>IT technician</b> 🛠️ from <b>Poland</b>. With a strong foundation in <b>game development</b> 🎮 and <b>web development</b> 🌐, I've gained substantial experience in creating <b>efficient</b>, <b>secure</b>, and <b>innovative</b> digital solutions. My passion for technology drives me to continuously <b>learn</b> 📚 and evolve in the ever-changing tech landscape. I'm committed to <b>mastering my craft</b> and contributing to <b>impactful projects</b> 🚀.
+            </p>  
+        </div>
+    </section>
+
+    <section id="projects" class="py-20 bg-gray-900">
+        <div class="container mx-auto text-center">
+            <h2 class="text-3xl font-semibold mb-12">Projects</h2>
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-12">
+                <a href="project1.html" class="bg-gray-800 rounded-lg shadow-xl hover:shadow-2xl transition-shadow duration-300 transform hover:-translate-y-1">
+                    <div class="relative">
+                        <img src="media/laserleagues.png" alt="Laser Leagues" class="w-full h-32 object-cover rounded-t-lg">
+                        <div class="absolute top-0 left-0 right-0 bottom-0 bg-black bg-opacity-50 flex items-center justify-center rounded-t-lg">
+                            <h3 class="text-2xl font-bold text-white">Laser Leagues</h3>
+                        </div>
+                    </div>
+                    <div class="p-6">
+                        <p><b>Laser Leagues</b> 🎮 is a <b>close-sourced Roblox game</b> with advanced gameplay mechanics.</p>
+                    </div>
+                </a>
+                <a href="project2.html" class="bg-gray-800 rounded-lg shadow-xl hover:shadow-2xl transition-shadow duration-300 transform hover:-translate-y-1">
+                    <div class="relative">
+                        <div class="h-32"></div>
+                        <div class="absolute top-0 left-0 right-0 bottom-0 bg-black bg-opacity-50 flex items-center justify-center rounded-t-lg">
+                            <h3 class="text-2xl font-bold text-white">Local School Website</h3>
+                        </div>
+                    </div>
+                    <div class="p-6">
+                        <p><b>Local school website</b> 🖥️ built using <b>Joomla</b> with a clean and responsive design.</p>
+                    </div>
+                </a>
+                <a href="project3.html" class="bg-gray-800 rounded-lg shadow-xl hover:shadow-2xl transition-shadow duration-300 transform hover:-translate-y-1">
+                    <div class="relative">
+                        <div class="h-32"></div>
+                        <div class="absolute top-0 left-0 right-0 bottom-0 bg-black bg-opacity-50 flex items-center justify-center rounded-t-lg">
+                            <h3 class="text-2xl font-bold text-white">School Lesson Archive</h3>
+                        </div>
+                    </div>
+                    <div class="p-6">
+                        <p><b>School Lesson Archive</b> built using <b>Next.js ▶ & Firebase 🔥</b> with a modern user interface.</p>
+                    </div>
+                </a>
+            </div>
+        </div>
+    </section>
+    
+
+    <section id="certificates" class="py-20 bg-gray-800">
+        <div class="container mx-auto text-center">
+            <h2 class="text-3xl font-semibold mb-6">Certificates</h2>
+            <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8">
+                <div class="bg-gray-700 shadow-lg p-6 border-l-4 border-blue-500">
+                    <h3 class="text-xl font-semibold mb-2">Cambridge CAE C1 Exam</h3>
+                    <p class="mb-2"><b>Passed with an A</b> 🌟, achieving <b>CEFR Level C2</b> 🌐</p>
+                    <p>Issued by: <b>Cambridge Assessment English</b></p>
+                </div>
+                <div class="bg-gray-700 shadow-lg p-6 border-l-4 border-green-500">
+                    <h3 class="text-xl font-semibold mb-2">Cisco IT Essentials</h3>
+                    <p class="mb-2"><b>Official Certification</b> 🖥️</p>
+                    <p>Issued by: <b>Cisco Networking Academy</b></p>
+                </div>
+                <div class="bg-gray-700 shadow-lg p-6 border-l-4 border-red-500">
+                    <h3 class="text-xl font-semibold mb-2">Cisco Routing & Switching</h3>
+                    <p class="mb-2"><b>Official Certification</b> 🌐</p>
+                    <p>Issued by: <b>Cisco Networking Academy</b></p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="achievements" class="py-20 bg-gray-900">
+        <div class="container mx-auto">
+            <h2 class="text-4xl font-extrabold text-center text-white mb-12">Achievements</h2>
+            <div class="relative">
+                <div class="relative flex flex-col items-center">
+                    <div class="relative flex items-center mb-8">
+                        <div class="w-16 h-16 bg-gradient-to-r from-blue-500 to-green-500 rounded-full flex items-center justify-center text-white text-2xl font-bold">
+                            <span>🏆</span>
+                        </div>
+                        <div class="bg-gray-800 rounded-lg shadow-xl p-6 ml-8 z-10">
+                            <h3 class="text-2xl font-semibold text-white mb-4">Cyberquest Vice-Champion</h3>
+                            <p class="text-gray-300">2nd place in the world among thousands of competitors from the US, Poland, Australia. Organized by Lockheed Martin at their military facility.</p>
+                        </div>
+                    </div>
+    
+                    <div class="relative flex items-center mb-8">
+                        <div class="w-16 h-16 bg-gradient-to-r from-purple-500 to-pink-500 rounded-full flex items-center justify-center text-white text-2xl font-bold">
+                            <span>🏅</span>
+                        </div>
+                        <div class="bg-gray-800 rounded-lg shadow-xl p-6 ml-8 z-10">
+                            <h3 class="text-2xl font-semibold text-white mb-4">Codequest</h3>
+                            <p class="text-gray-300">4th place internationally, showcasing strong coding skills and problem-solving ability.</p>
+                        </div>
+                    </div>
+    
+                    <div class="relative flex items-center mb-8">
+                        <div class="w-16 h-16 bg-gradient-to-r from-green-500 to-yellow-500 rounded-full flex items-center justify-center text-white text-2xl font-bold">
+                            <span>🥉</span>
+                        </div>
+                        <div class="bg-gray-800 rounded-lg shadow-xl p-6 ml-8 z-10">
+                            <h3 class="text-2xl font-semibold text-white mb-4">CyberSkiller</h3>
+                            <p class="text-gray-300">4th place in CyberSkiller competition held in Warsaw, Poland, demonstrating cybersecurity prowess and competitive spirit.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    
+
+    <section id="contact" class="py-20 bg-gray-800">
+        <div class="container mx-auto text-center">
+            <h2 class="text-3xl font-semibold mb-6">Contact</h2>
+            <p class="text-lg">via Email: <a href="mailto:sxttxch.2@wp.pl" class="text-blue-400">sxttxch.2@wp.pl</a></p>
+            <p class="text-lg">via Discord: <a href="https://discord.com/users/995743379193331743" target="_blank" class="text-blue-400">Discord</a></p>
+        </div>
+    </section>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js"></script>
+    <script src="index.js"></script>
+</body>
+</html>
