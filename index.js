@@ -30,7 +30,6 @@ function createTextTexture(text, color, backgroundColor) {
     return new THREE.CanvasTexture(canvas);
 }
 
-// Create cube with text on each face
 const geometry = new THREE.BoxGeometry();
 const materials = [
     new THREE.MeshStandardMaterial({ map: createTextTexture('GitHub', '#ffffff', '#1e90ff') }), // Front face
@@ -43,10 +42,8 @@ const materials = [
 const cube = new THREE.Mesh(geometry, materials);
 scene.add(cube);
 
-// Position the camera
 camera.position.z = 5;
 
-// Links associated with each face of the cube
 const faceLinks = [
     "https://github.com/SxtTxch",// Front face
     "https://github.com/SxtTxch",       // Back face
